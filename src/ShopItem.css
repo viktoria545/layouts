@@ -1,0 +1,36 @@
+.shop_item {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-right: 20px;
+}
+
+.item_h3 {
+    text-transform: uppercase;
+
+}
+
+
+.item_img img {
+    width: 140px;
+    height: 140px;
+}
+
+
+.item_price {
+    color: red;
+}
+
+.item_button {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: red;
+    border: 1px solid red;
+    padding: 10px 15px;
+    border-radius: 49px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
